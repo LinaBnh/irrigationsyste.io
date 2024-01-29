@@ -61,12 +61,7 @@ body {
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.sideswipe-list li {
-    display: inline-block;
-    padding-right: 20px; 
-    animation: sideswipe 10s linear infinite;
+	animation: sideswipe 10s linear infinite;
 }
 
 @keyframes sideswipe {
@@ -78,6 +73,11 @@ body {
         opacity: 1; 
         transform: translateX(-100%);
     }
+}
+
+.sideswipe-list li {
+    display: inline-block;
+    padding-right: 20px; 
 }
 
 .sideswipe-list img {
