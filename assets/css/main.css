@@ -61,7 +61,7 @@ body {
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
-	width: 2200px;
+	width: 2300px;
 	animation: sideswipe 15s linear infinite;
 }
 
@@ -70,7 +70,7 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-2200px);
+        transform: translateX(-2300px);
     }
 }
 
