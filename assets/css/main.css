@@ -61,15 +61,16 @@ body {
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
+	width: 2200px;
 	animation: sideswipe 15s linear infinite;
 }
 
 @keyframes sideswipe {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-2200px);
     }
 }
 
