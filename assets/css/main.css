@@ -55,6 +55,47 @@ body {
     padding: 10px; 
 }
 
+.sideswipe-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sideswipe-list li {
+    display: inline-block;
+    padding-right: 20px; 
+    animation: sideswipe 10s linear infinite;
+}
+
+@keyframes sideswipe {
+    0%, 100% {
+        opacity: 0; 
+        transform: translateX(100%);
+    }
+    5%, 95% {
+        opacity: 1; 
+        transform: translateX(-100%);
+    }
+}
+
+.sideswipe-list img {
+    max-width: 100px; 
+    max-height: 100px; 
+    transition: opacity 1s ease; 
+}
+
+video-container {
+    margin-top: 20px; 
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
 ol, ul {
 	list-style: none;
 }
