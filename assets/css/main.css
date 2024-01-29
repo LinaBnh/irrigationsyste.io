@@ -2031,8 +2031,8 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 
-				ul.contact li:hover a.fa-dribbble {
-					background-color: #C4376B;
+				ul.contact li:hover a.fa-github-alt {
+					background-color: #000000;
 				}
 
 				ul.contact li:hover a.fa-linkedin-in {
